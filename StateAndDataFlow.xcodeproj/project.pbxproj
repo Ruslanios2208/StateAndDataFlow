@@ -15,6 +15,9 @@
 		A80D394B294A4F3400BE3266 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D394A294A4F3400BE3266 /* RegisterView.swift */; };
 		A80D394D294A501D00BE3266 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D394C294A501D00BE3266 /* UserManager.swift */; };
 		A80D394F294A530900BE3266 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D394E294A530900BE3266 /* StarterView.swift */; };
+		E45BCB6929521A9200C71E2E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BCB6829521A9200C71E2E /* DataManager.swift */; };
+		E45BCB6B2952231A00C71E2E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BCB6A2952231A00C71E2E /* ButtonView.swift */; };
+		E45BCB6D295224A900C71E2E /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45BCB6C295224A900C71E2E /* ButtonAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		A80D394A294A4F3400BE3266 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A80D394C294A501D00BE3266 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		A80D394E294A530900BE3266 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		E45BCB6829521A9200C71E2E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E45BCB6A2952231A00C71E2E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E45BCB6C295224A900C71E2E /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 			children = (
 				A80D393A294A077F00BE3266 /* StateAndDataFlowApp.swift */,
 				A80D394E294A530900BE3266 /* StarterView.swift */,
+				E45BCB6829521A9200C71E2E /* DataManager.swift */,
 				A80D393C294A077F00BE3266 /* ContentView.swift */,
+				E45BCB6A2952231A00C71E2E /* ButtonView.swift */,
+				E45BCB6C295224A900C71E2E /* ButtonAppearanceModifier.swift */,
 				A80D394A294A4F3400BE3266 /* RegisterView.swift */,
 				A80D3948294A47C100BE3266 /* TimeCounter.swift */,
 				A80D394C294A501D00BE3266 /* UserManager.swift */,
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45BCB6D295224A900C71E2E /* ButtonAppearanceModifier.swift in Sources */,
 				A80D3949294A47C100BE3266 /* TimeCounter.swift in Sources */,
 				A80D394B294A4F3400BE3266 /* RegisterView.swift in Sources */,
+				E45BCB6B2952231A00C71E2E /* ButtonView.swift in Sources */,
 				A80D394F294A530900BE3266 /* StarterView.swift in Sources */,
+				E45BCB6929521A9200C71E2E /* DataManager.swift in Sources */,
 				A80D393D294A077F00BE3266 /* ContentView.swift in Sources */,
 				A80D394D294A501D00BE3266 /* UserManager.swift in Sources */,
 				A80D393B294A077F00BE3266 /* StateAndDataFlowApp.swift in Sources */,
